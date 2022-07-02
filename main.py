@@ -4,7 +4,6 @@ import keys
 from datetime import date
 
 # Authenticate
-import texts
 
 auth = tweepy.OAuthHandler(keys.api_key, keys.api_secret_key)
 auth.set_access_token(keys.access_token, keys.access_secret_token)
@@ -19,4 +18,6 @@ try:
 except:
     print("Something's wrong")
 
+
+tweetPicture.imageTweet()
 texts.textTweet()
