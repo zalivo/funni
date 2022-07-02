@@ -9,7 +9,6 @@ auth.set_access_token(keys.access_token, keys.access_secret_token)
 # Directory Path
 
 picturePath = "./pictures/"
-lyricPath = "./lyrics/"
 
 # API
 
