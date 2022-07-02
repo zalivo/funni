@@ -1,12 +1,10 @@
 import tweepy
 import keys
-
+import texts
+import tweetPicture
 from datetime import date
 
 # Authenticate
-import texts
-import tweetPicture
-
 auth = tweepy.OAuthHandler(keys.api_key, keys.api_secret_key)
 auth.set_access_token(keys.access_token, keys.access_secret_token)
 
